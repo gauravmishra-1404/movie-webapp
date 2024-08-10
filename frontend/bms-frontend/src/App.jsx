@@ -11,7 +11,7 @@ import Admin from './pages/Admin'
 import Partner from '../src/pages/Partner'
 import SingleMovie from './pages/SingleMovie'
 import BookShow from './pages/BookShow'
-import Loader from './pages/Loder'
+import Loader from './pages/Loader'
 import Reset from './pages/Reset'
 import Forget from './pages/Forget'
 

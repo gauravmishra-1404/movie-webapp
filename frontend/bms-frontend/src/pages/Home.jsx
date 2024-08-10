@@ -13,7 +13,7 @@ const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  console.log({ movies })
+  //console.log({ movies })
 
   const getData = async () => {
     try {

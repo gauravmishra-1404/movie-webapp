@@ -12,7 +12,7 @@ export const addShow = async (payload) => {
 export const updateShow = async (payload) => {
   try {
     const response = await axiosInstance.put("/api/shows/update-show", payload);
-    console.log(payload, response);
+    //console.log(payload, response);
     return response.data;
   } catch (err) {
     return err.response;

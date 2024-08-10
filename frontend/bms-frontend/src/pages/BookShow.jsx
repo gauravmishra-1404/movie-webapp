@@ -34,7 +34,7 @@ const BookShow = () => {
             if (response.success) {
                 setShow(response.data);
                 // message.success(response.message);
-                console.log(response.data)
+                //console.log(response.data)
             } else {
                 message.error(response.message)
             }
@@ -73,7 +73,7 @@ const BookShow = () => {
     // I need to confirm that in my backend
     const onToken = async (token) => {
 
-        console.log({ token })
+        //console.log({ token })
         try {
             dispatch(showLoading());
             const response = await makePayment(
@@ -84,7 +84,7 @@ const BookShow = () => {
             if (response.success) {
                 message.success(response.message);
                 book(response.data);
-                console.log(response);
+                //console.log(response);
             } else {
                 message.error(response.message);
             }

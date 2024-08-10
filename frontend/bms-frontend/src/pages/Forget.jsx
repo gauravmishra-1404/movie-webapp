@@ -7,7 +7,7 @@ import { message } from 'antd'
 
 function Forget() {
     const onFinish = async (values) => {
-        console.log(values);
+        //console.log(values);
         try {
             const response = await forgetPassword(values)
             if (response.status === "success") {
